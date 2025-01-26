@@ -1,26 +1,3 @@
-# Projects related to DOM
-
-## project link
-[Click here](https://stackblitz.com/edit/dom-project-chaiaurcode?file=index.html)
-
-# Solution Code
-
-## Project 1 solution
-
-```Javascript
-const buttons = document.querySelectorAll('.button')
-const body = document.querySelector('body')
-
-buttons.forEach(function(button) {
-    button.addEventListener('click', function(e) {
-        body.style.backgroundColor = e.target.getAttribute('data-color')      
-    })
-})
-```
-
-## Project 2 solution
-
-```javascript
 const form = document.querySelector('form')
 
 form.addEventListener('submit', function(e) {
@@ -48,4 +25,3 @@ form.addEventListener('submit', function(e) {
         result.innerHTML = `<span>${bmi}</span><br></span>${rangeTxt}</span>`
     }
 })
-```
