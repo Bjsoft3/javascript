@@ -1,0 +1,28 @@
+.text-center {
+    text-align: center;
+}
+.color-box {
+    padding: 10px;
+    height: 110px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+#gray {
+    background: gray;
+}
+#white {
+    background: white;
+}
+#blue {
+    background: blue;
+}
+#yellow {
+    background: yellow;
+}
